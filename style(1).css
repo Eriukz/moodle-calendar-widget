@@ -1,0 +1,6 @@
+#custom-calendar {
+    padding: 0 10px;
+}
+#custom-calendar.urgent { color: #ff7a7a; }
+#custom-calendar.empty  { opacity: 0.6; }
+#custom-calendar.error  { color: #ffb86c; }

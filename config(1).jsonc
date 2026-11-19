@@ -1,0 +1,10 @@
+// Add "custom/calendar" to modules-left / modules-center / modules-right,
+// and put this block next to your other modules.
+"custom/calendar": {
+    "exec": "python3 ~/.config/quickshell/calendar-widget/waybar-calendar.py --lang es",
+    "return-type": "json",
+    "interval": 600,
+    "tooltip": true,
+    "on-click": "python3 ~/.config/quickshell/calendar-widget/waybar-calendar.py --lang es --notify",
+    "signal": 8
+}
